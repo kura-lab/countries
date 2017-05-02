@@ -1,0 +1,27 @@
+{
+    "name": "kura-lab/countries",
+    "description": "Country Codes Converter for PHP in Japanese",
+    "keywords": ["County name", "Country codes", "ISO 3166-1", "Japanese"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/kura-lab/countries",
+    "authors": [
+      {
+        "name": "kura",
+        "email": "mkurahay@gmail.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/yaml": "v2.6.*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "4.6.*"
+    },
+    "autoload": {
+      "psr-0": {
+        "kuralab\\countries": "src/"
+      }
+    }
+}
